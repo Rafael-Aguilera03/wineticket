@@ -6,7 +6,6 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     var password = document.getElementById("password").value;
 
     // Aquí simularíamos un comportamiento para verificar si el usuario está registrado.
-    // Como no tenemos una base de datos en el frontend, vamos a crear una verificación ficticia.
     var userDatabase = [
         { email: "user@example.com", password: "password123" },
         { email: "admin@example.com", password: "adminpass" }
